@@ -1,0 +1,23 @@
+TAreas 10-01
+
+
+
+Ejercicios : 
+1 .basic alghorims
+2 .loops
+3. review basics
+4. rfunciones
+5 .es6
+
+
+Hoisting --> buscar significado -- recolocacion de funciones segun se necesiten en el archivo js
+ todas las funciones arrow son const y no s epuede hacer hosting
+
+
+Es6 ---
+// template string
+
+manera de concatenar 
+
+ // preguntar a alberto ....porque todos los metodos se pueden haccer con el reduce
+
