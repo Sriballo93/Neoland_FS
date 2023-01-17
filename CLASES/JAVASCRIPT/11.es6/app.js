@@ -32,9 +32,9 @@ const movie = {
 // console.log(title);
 // console.log(year)
 
-// const {title, director, year} = movie;
-// const {mainCharacter}= actors;
-// console.log(mainCharacter);
+const {title, director, year} = movie;
+const {mainCharacter}= actors;
+console.log(mainCharacter);
 
 // spread operator
 

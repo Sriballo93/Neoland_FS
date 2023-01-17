@@ -16,11 +16,25 @@ const duplicates = [
     'soda'
   ];
 
-  const numeros = [1, 2, 2, 3, 4, 4, 5];
-
-const unicos = numeros.filter((valor, indice) => {
-    return numeros.indexOf(valor) === indice;
+const removeDuplicates = duplicates.filter((valor, indice) => {
+    return duplicates.indexOf(valor) === indice;
   }
 );
 
-console.log(unicos); // [1, 2, 3, 4, 5]
+
+// console.log(removeDuplicates);
+
+
+/// Buscar otra manera mas facil con lo que ya hemos visto 
+
+const unicos = [];
+
+duplicates.forEach( (elemento) => {
+  if (!unicos.includes(elemento)) {
+    unicos.push(elemento);
+  }
+});
+
+console.log(unicos);
+
+

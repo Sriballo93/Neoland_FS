@@ -1,0 +1,125 @@
+TAreas 10-01
+
+
+
+Ejercicios : 
+1 .basic alghorims
+2 .loops
+3. review basics
+4. rfunciones
+5 .es6
+
+
+Hoisting --> buscar significado -- recolocacion de funciones segun se necesiten en el archivo js
+ todas las funciones arrow son const y no s epuede hacer hosting
+
+
+Es6 ---
+// template string
+
+manera de concatenar 
+
+ // preguntar a alberto ....porque todos los metodos se pueden haccer con el reduce
+
+
+formatea 
+
+
+
+**Métodos Array**
+
+
+**length:** El método **length** nos permite conocer la longitud de un string, es decir, el número de caracteres que lo conforman.
+
+
+**includes: El método includes nos permite conocer si un caracter o una porción de caracteres se encuentran dentro de un string, devolviendo un valor booleano según se cumpla o no.
+
+**repeat: El método repeat devuelve un nuevo string con el número de copias del string donde lo estemos aplicando. Este número se le pasará por argumento al método.
+
+**replace: El método replace devuelve un string con el string insertado por argumento sustituido por el segundo argumento, es decir, como primer argumento recibirá el substring que queremos sustituir y como segundo argumento el substring que queremos que reemplace a este.
+
+**replaceall:
+
+**slice: El método slice devuelve una nueva cadena con la porción delimitada entre la posición del primer argumento y la posición del segundo argumento.
+
+**split: El método split genera un array de tantos elementos como se indique en el segundo argumento indicándole el elemento separador en el primer argumento.
+
+**toLowerCase: El método toLowerCase devuelve el valor del string convertido a minúsculas.
+
+**toUpperCase: El método toUpperCase devuelve el valor del string convertido a mayúsculas.
+
+**trim: El método trim elimina los espacios en blanco desde el principio hasta el final del string.
+
+
+
+
+**Métodos Numeros**
+
+---
+
+Estos son algunos de los métodos más utilizados con el tipo de dato **number**.
+
+**isNaN:** El método **isNaN** determina si el valor es de tipo number o no, recordemos que NaN es “Not a Number”. Si no es un número devolverá true, y si detecta un número o un valor convertible a número devolverá false.
+
+**isInteger: El método isInteger nos indica a través de un booleano si el valor pasado es un número entero, si no nos devolverá false.
+
+**parseInt: El método parseInt convierte un valor de tipo string a número entero.
+
+**parseFloat: El método parseFloat es muy parecido al parseInt, pero convierte si fuera necesario un valor de tipo string a un número decimal si encontrará un punto en el mismo.
+
+**toString: El método num.toString(base) devuelve la representación numérica en una cadena, en el sistema numérico con la base especificada.
+
+
+**Metodos Array
+
+**Bucle `for`**
+
+ El bucle **`for`** es uno de los más comunes en JavaScript y se utiliza para ejecutar un bloque de código un número determinado de veces. La sintaxis de un bucle **`for`** es la siguiente:
+La inicialización se ejecuta una vez al principio del bucle y suele utilizarse para inicializar una variable de control. La condición se evalúa al principio de cada iteración del bucle y, si se cumple, se ejecuta el bloque de código. Si la condición no se cumple, el bucle termina. Por último, la actualización se ejecuta al final de cada iteración del bucle y suele utilizarse para modificar la variable de control.
+
+
+****Bucle `while`**
+
+El bucle **`while`** es otro tipo de bucle muy común en JavaScript. Se utiliza para ejecutar un bloque de código mientras se cumpla una determinada condición. La sintaxis de un bucle **`while`** es la siguiente:
+
+
+**Bucle `for`**
+
+Es el bucle más básico y funcional.  se inicia con la palabra reservada **for** y a continuación la condición de iteración.  Es decir entre paréntesis lleva la inicialización **let `index = 0`**, la condición de ruptura **`index < array.length`** y el incremento **`index ++`** o decremento **`index --`**
+
+**Bucle `foreach`**
+
+---
+
+Podemos construir un bucle **for**, pero con una estructura más funcional gracias al **foreach**. En ocasiones puede ser muy útil generar una función para ejecutarla por cada vuelta de bucle.
+
+
+//////////////
+
+OBJETOS 
+
+metodos :
+
+Object
+
+Prgoramacion orientada a Objetos(mejor dicho Prototypes)
+
+Hoy dia 1301
+
+mapear
+
+
+1. crear json y copiar info del json de la url del api por ejmplo riki y morty
+
+2. crear js --> y hacemos un  import data from "../mapear.json"; o const data = require("./mapear.json" si notiene un module.
+
+3. luego dentro de js ,  como en el json tiene objetos si hacemos un clg (data.results); results es variable porque depende de quien haga la api y los objetos que quiera
+
+4. luego creamos un const  characters = data.results ..... esto lo hacemos para quedarnos con lo que encontramos en el 
+
+
+1.hacer una funcion que recupere todos los personas que tengan la palabra  "rick en su nombre", 
+
+
+
+

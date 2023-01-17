@@ -10,10 +10,29 @@ const placesToTravel = [
   { id: 44, name: "Filipinas" },
   { id: 59, name: "Madagascar" },
 ];
-for (let i = placesToTravel.id; i < placesToTravel.length; i++) {
-  const place = placesToTravel[i];
-  if (placesToTravel.id !== 11 || 40) {
-    placesToTravel.splice(i, 1);
-  }
-  console.log(placesToTravel);
+
+ let list = placesToTravel; 
+
+
+
+
+for (let place = 0; place < placesToTravel.length; place++) {
+  if(placesToTravel[place].id !== 11 && placesToTravel[place].id !== 40){
+    console.log(placesToTravel[place])
+  } 
+  
 }
+/// Listoooooooooo
+
+
+  //   if(placesToTravel[place].id !== 11 || placesToTravel[place].id !== 40 ){
+   
+  //  }
+ 
+
+
+
+  
+
+
+
