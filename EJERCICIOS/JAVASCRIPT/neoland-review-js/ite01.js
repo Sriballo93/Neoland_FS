@@ -8,16 +8,26 @@ const movies = [
     {title: 'El gato con guantes', duration: 111, categories: ['comedia', 'aventura', 'animación']},
 ]
 let categoryofmovies = [];
-for (const object of movies) {
-    if(object.categories.indexOf('comedia' || 'aventura' || 'acción'|| 'thriller' || 'animación'))
-    {
-        object = 
+
+for (const movie of movies) {
+    for (const key of movie.categories) {
+        if (!categoryofmovies.includes(key)) {
+            categoryofmovies.push(key)
+            
+        }
     }
+}
+
+        // if ( key.categories.includes('comedia') == true || key.categories.includes('aventura') == true || key.categories.categoriesincludes('acción') == true || key.categories.categories.includes('thriller') == true || key.categories.includes('animación') == true) {     categoryofmovies.push(key.categories.indexOf())     
+        // }
     
+
+
+    console.log(categoryofmovies)
 
     
        // if (property.includes('comedia' || 'aventura' || 'acción'|| 'thriller' || 'animación')) {}
            
-}
 
-console.log(categoryofmovies)
+
+

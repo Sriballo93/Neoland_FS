@@ -14,10 +14,7 @@ const movies = [
 const movieFinder = movies.find(movie => movie.date === 2010) 
 console.log(movieFinder)
 
-// 6.3 Dado el siguiente javascript, usa .find() para econtrar el alien de nombre 
-// 'Cucushumushu' y la mutación 'Porompompero'. Una vez que los encuentres, usa 
-// spread operator para fusionarlos teniendo en cuenta que el objeto de la mutación 
-// lo queremos meter en la propiedad .mutation del objeto fusionado.
+// Dado el siguiente javascript, usa .find() para econtrar el alien de nombre 'Cucushumushu' y la mutación 'Porompompero'. Una vez que los encuentres, usa spread operator para fusionarlos teniendo en cuenta que el objeto de la mutación lo queremos meter en la propiedad .mutation del objeto fusionado.
 
 const aliens = [
 	{name: 'Zalamero', planet: 'Eden', age: 4029},
@@ -30,24 +27,22 @@ const mutations = [
 	{name: 'Fly me to the moon', description: 'Permite volar, solo y exclusivamente a la luna'},
 	{name: 'Andando que es gerundio', description: 'Invoca a un señor mayor como Personal Trainer'}
 ];
-
-[
-	{name: 'Porompompero', description: 'Hace que el alien pueda adquirir la habilidad de tocar el tambor'},
-	{name: 'Fly me to the moon', description: 'Permite volar, solo y exclusivamente a la luna'},
-	{name: 'Andando que es gerundio', description: 'Invoca a un señor mayor como Personal Trainer'}
-];
+const alien = aliens.find(alien => alien.name === 'Cucushumushu');
+const mutation = mutations.find(mutation => mutation.name === 'Porompompero');
+const merged = { ...alien, mutation };
+console.log(merged);
 
 
-const alienFinder = aliens.find(alien=> alien.name === 'Cucushumushu')
+// const alienFinder = aliens.find(alien=> alien.name === 'Cucushumushu')
 
 
-const mutationFinder = mutations.find(mutationF =>{
-     if (mutationF.name === 'Porompompero') {
-        return {mutation: 'Porompompero', description: 'Hace que el alien pueda adquirir la habilidad de tocar el tambor'}
-}
-    })
+// const mutationFinder = mutations.find(mutationF =>{
+//      if (mutationF.name === 'Porompompero') {
+//         return {mutation: 'Porompompero', description: 'Hace que el alien pueda adquirir la habilidad de tocar el tambor'}
+// }
+//     })
   
- console.log(mutationFinder)
+//  console.log(mutationFinder)
     
 //     const {mutation4, description} = mutationFinder;
     

@@ -71,13 +71,14 @@ const streamers3 = [
  	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
  ];
 
-const filteredStreamers2 = streamers3.filter(inputName => {
-	if (inputName.name.includes(inputName) === true) {
-		return streamers3.name
-	}
-})
+ function search() {
+	const inputValue = document.getElementById("inputName").value;
+	const filteredStreamers = streamers3.filter(streamer => streamer.name.includes(inputValue));
+	console.log(filteredStreamers);
+ }
 
-// filteredStreamers2('Ru')
+
+ 
 
 
 // 5.7 Dado el siguiente html y javascript, utiliza .filter() para mostrar por consola 
