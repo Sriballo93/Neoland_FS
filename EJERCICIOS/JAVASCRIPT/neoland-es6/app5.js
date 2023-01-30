@@ -71,14 +71,33 @@ const streamers3 = [
  	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
  ];
 
- function search() {
-	const inputValue = document.getElementById("inputName").value;
-	const filteredStreamers = streamers3.filter(streamer => streamer.name.includes(inputValue));
-	console.log(filteredStreamers);
- }
+
+//  const myinput2 = document.querySelector("input[data-function]");
 
 
  
+
+
+
+// myinput2.addEventListener("input", (ev) => {
+	
+// 	const filteredStremears3 = streamers3.filter(streamerfilter  => streamerfilter.name.includes(ev.target.value) === true)
+	
+// 	console.log(filteredStremears3)
+// },
+ 
+// );
+
+//el ejercicio de arriba esta listooooooooooooooooo
+
+//  function search() {
+// 	const inputValue = document.getElementById("inputName").value;
+// 	const filteredStreamers = streamers3.filter(streamer => streamer.name.includes(inputValue));
+// 	console.log(filteredStreamers);
+//  }
+
+
+//  search();
 
 
 // 5.7 Dado el siguiente html y javascript, utiliza .filter() para mostrar por consola 
@@ -86,23 +105,35 @@ const streamers3 = [
 // introduzco 'Ru' me deberia de mostrar solo el streamer 'Rubius'. Si introduzco 'i', 
 // me deberia de mostrar el streamer 'Rubius' e 'Ibai'.
 // En este caso, muestra solo los streamers filtrados cuando hagamos click en el button.
-// const streamers = [
-// 	{name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft'},
-// 	{name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends'},
-// 	{name: 'Reven', age: 43, gameMorePlayed: 'League of Legends'},
-// 	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
-// ];
 
-// <!doctype html>
-// <html lang="en">
-// <head>
-// <meta charset="UTF-8">
-//              <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-//              <meta http-equiv="X-UA-Compatible" content="ie=edge">
-//              <title>Document</title>
-// </head>
-// <body>
-//   <input type="text" data-function="toFilterStreamers"/>
-//   <button data-function="toShowFilterStreamers">Filter</button>
-// </body>
-// </html>
+
+const streamers4 = [
+	{name: 'Rubius', age: 32, gameMorePlayed: 'Minecraft'},
+ 	{name: 'Ibai', age: 25, gameMorePlayed: 'League of Legends'},
+	{name: 'Reven', age: 43, gameMorePlayed: 'League of Legends'},
+ 	{name: 'AuronPlay', age: 33, gameMorePlayed: 'Among Us'}
+ ];
+
+
+ const mybutton =document.querySelector('button');
+ console.log(mybutton)
+ const myinput=document.querySelector('input[data-function]');
+
+
+	myinput.addEventListener("input", (ev) => {
+	
+		const filteredStremears4 = streamers4.filter(streamerfilter  => streamerfilter.name.includes(ev.target.value) === true)
+		mybutton.addEventListener("click",(ev) => {
+	
+	console.log(filteredStremears4)
+ },
+ 
+ 
+ )
+	},
+	 
+	);
+
+
+
+ 
