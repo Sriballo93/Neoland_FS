@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+*{
+  padding: 0;
+  /* margin: 0; */
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal {
+  background: #F6F7F8;
+  width: 550px;
+  height: 250px;
+  border:1px solid black;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  margin: 3rem;
+}
+
+.icon {
+  color: royalblue;
+  font-size: 26px;
+  font-weight: 700;
+  background: lavender;
+  border-radius:50%;
+  border: 1px solid black;
+  width: 42px;
+  height: 42px;
+  margin: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.close-button {
+  background: #eee;
+  border-radius: 50%;
+  color: #888;
+  font-weight: 400;
+  font-size: 16px;
+  width: 42px;
+  height: 42px;
+  margin: 1rem;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  padding: 8px 16px;
+  border-radius: 8px;
+  width: 150px;
+  height: 40px;
+}
+
+button.continue {
+  background: royalblue;
+  border: 1px solid black;
+  color: white;
+  height: 40px;
+  
+  
+}
+
+button.cancel {
+  background: white;
+  border: 1px solid black;
+  color: royalblue;
+}
+
+.header{
+  font-family:'Shadows Into Light', cursive ;
+  font-weight: bold;
+}
+
+.text{
+  font-family:'Shadows Into Light', cursive ;
+  font-weight: bold;
+  font-size: 14px;
+  margin: 0 1rem 02rem 1rem;
+}
+
+button{
+  font-family:'Shadows Into Light', cursive ;
+  display: flex;
+  
+  
+  
+  width:150px;
+  font-weight: bold;
+  border: 1px solid black;
+  border-radius: 0;
+  
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+
+}
+
+.button_container{
+  display: flex;
+  justify-content: left;
+  
+  gap: 1rem;
+  margin-left: 1.5rem;
+  
+}
+
+.continue{
+ height: 40px;
+ padding-bottom: 0.5rem;
+}

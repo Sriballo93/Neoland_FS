@@ -1,0 +1,95 @@
+
+  .sections > .connect{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align:center;
+    height:100vh ;
+  
+   
+  
+  
+  }
+  .sections > .connect > .img{
+    height: 100vh;
+    width: 795px;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    
+  }
+
+  
+  .connect > .img > img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 1rem;
+    overflow: visible;
+    
+  }
+
+    .righttext{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     font-weight: 300;
+     height: 500px;
+     width: 595px;
+     margin: 0px 0px 0px 126.33px;
+     padding: 0px 126.333px 0px 0px;
+    
+  
+    } 
+
+
+    .connect > .righttext > h1{
+      font-size: 60px;
+      width: 469px;
+      height: 325px;
+      text-align: left;
+      margin-bottom: 1rem;
+      position: relative;
+      line-height: 65px;
+      margin: 20px 0px 0px;
+      text-align: left;
+      bottom: 3rem;
+    }
+
+
+    .connect > div > p {
+      font-family: 'Sofia Sans Semi Condensed', sans-serif;
+      width: 469px;
+      height: 72px;
+      line-height: 24px;
+      text-align: left;
+      font-weight: 300;
+    }
+  
+    .connect >div > span{
+      display: flex;
+      align-self: flex-start;
+    }
+
+      .connect >div > span >a{
+
+        display:flex;
+        background-color: #514a92;
+        border-radius: 30px;
+        color: #ffffff;
+        display:inline-block;
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:1.5px;
+        line-height:12px;
+        padding:14px 40px 18px;
+        text-align:center;
+        text-transform:uppercase;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        margin-top: 3rem;
+    } 

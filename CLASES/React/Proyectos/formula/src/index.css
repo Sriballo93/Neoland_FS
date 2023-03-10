@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap');
+@font-face {
+    font-family: "F1";
+    src: url("./Formula1-Bold.ttf");
+}
+
+:root{
+
+    --f1-color-highligth:#E10600;
+    --f1-color-primary:#FFFFFF;
+    --f1-color-secondary:#1F1F27;
+    --f1-background-primary:#38383F;
+    --f1-font-secondary: 'Titillium Web', sans-serif;
+    --f1-font-primary: 'F1', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  
+}
+

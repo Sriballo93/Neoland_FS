@@ -1,0 +1,416 @@
+
+
+.sections{
+
+    display: flex;
+    flex-direction: column;
+  }
+  
+  img{
+    max-width: 100%;
+  }
+
+  .sections > section > div > p {
+      font-family: 'Sofia Sans Semi Condensed', sans-serif;
+      width: 397px;
+    }
+  .sections > section >  div > h1 {
+      font-family: 'PT Serif',serif; 
+      width:397px
+    }
+
+  section> div > span > a{
+    background-color: #554f92;
+    border-radius: 1.5rem;
+    padding: 1rem 2.5rem;
+    letter-spacing: 1px;
+    font-size: 12px;
+    
+  }
+
+  /* SHOP */
+
+  .sections > .shop{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    height:100vh ;
+
+    
+  }
+
+.sections > .shop > .img{
+    height: 567px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+  }
+
+  .shop > .img > img{
+    height: 502px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 1re;
+  }
+
+  
+
+.shop > .lefttext{
+      display: flex;
+      flex-direction: column;
+      position: relative;
+       font-weight: 300;
+       height: 459px;
+       width: 505px;
+       left: 9rem;
+
+
+      }
+.shop>.lefttext >   h1 {
+      font-size: 60px;
+      width: 379px;
+      height:260px;
+      text-align: right;
+      margin-bottom: 1rem;
+      position: relative;
+      bottom: 3rem;
+    }
+
+    .shop > div > p {
+      font-family: 'Sofia Sans Semi Condensed', sans-serif;
+      width: 379px;
+      height: 96px;
+      text-align: end;
+    }
+
+
+/* CONNECT NOW */
+    
+  
+ 
+  .sections > .connect{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    text-align:center;
+    height:100vh ;
+  
+   
+  
+  
+  }
+  .sections > .connect > .img{
+    height: 100vh;
+    width: 795px;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+    
+  }
+
+  
+  .connect > .img > img{
+    height: 600px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 1rem;
+    overflow: visible;
+    
+  }
+
+    .righttext{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     font-weight: 300;
+     height: 500px;
+     width: 595px;
+     margin: 0px 0px 0px 126.33px;
+     padding: 0px 126.333px 0px 0px;
+    
+  
+    } 
+
+
+    .connect > .righttext > h1{
+      font-size: 60px;
+      width: 469px;
+      height: 325px;
+      text-align: left;
+      margin-bottom: 1rem;
+      position: relative;
+      line-height: 65px;
+      margin: 20px 0px 0px;
+      text-align: left;
+      bottom: 3rem;
+    }
+
+
+    .connect > div > p {
+      font-family: 'Sofia Sans Semi Condensed', sans-serif;
+      width: 469px;
+      height: 72px;
+      line-height: 24px;
+      text-align: left;
+      font-weight: 300;
+    }
+  
+    .connect >div > span{
+      display: flex;
+      align-self: flex-start;
+    }
+
+      .connect >div > span >a{
+
+        display:flex;
+        background-color: #514a92;
+        border-radius: 30px;
+        color: #ffffff;
+        display:inline-block;
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:1.5px;
+        line-height:12px;
+        padding:14px 40px 18px;
+        text-align:center;
+        text-transform:uppercase;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        margin-top: 3rem;
+    } 
+
+  .img > img {
+    height: 100%;
+    width:100%;
+  }
+
+ 
+
+
+
+
+ 
+
+  /* PATRONUS */
+  
+
+  .sections > .expectopatronus{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 100vh;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+  
+  }
+  .sections > .expectopatronus > .img{
+    height: 550px;
+    width: 884px;
+    object-fit: cover;
+    position: relative;
+    Z-index: -1;
+  }
+
+  .expectopatronus > .img > img{
+    height: 550px;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 1rem;
+  }
+
+
+.expectopatronus > .lefttext{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+   font-weight: 300;
+   height: 569px;
+   width: 505px;
+   margin:0px -126.333px 0px 0px;
+    padding:0px 0px 0px 126.333px;
+  }
+
+
+
+  .expectopatronus>.lefttext >  h1 {
+    font-size: 60px;
+    width: 379px;
+    height:130px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: right;
+    position: relative;
+    margin: 20px 0px 0px;
+  }
+
+  .expectopatronus > div > p {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    width: 379px;
+    height: 120px;
+    text-align: right;
+    margin: 17.7778 0px 0px;
+    position: relative;
+    top: 5rem ;
+ 
+  }
+
+.expectopatronus > div > span{
+  display: flex;
+  align-self:flex-end;
+}
+  .expectopatronus > div > span > a{
+
+    display:flex;
+    background-color: #514a92;
+    border-radius: 30px;
+    color: #ffffff;
+    display:inline-block;
+    font-size:12px;
+    font-weight:700;
+    letter-spacing:1.5px;
+    line-height:12px;
+    padding:14px 40px 18px;
+    text-align:center;
+    text-transform:uppercase;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    position: relative;
+    top:5rem;
+
+} 
+
+/*Wand*/
+
+  .sections > .wand{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    flex-direction: row-reverse;
+    height: 100vh;
+   
+  
+  }
+  .sections > .wand > .img{
+    height: 447px;
+    width: 795px;
+    object-fit: cover;
+    position: relative;
+    z-index: -1;
+
+  }
+
+  .wand > .img > img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: relative;
+    left: 1rem;
+    
+  }
+
+  
+    .wand >  .righttext{
+
+    display: flex;
+    flex-direction: column;
+    position: relative;
+     font-weight: 300;
+     height: 500px;
+     width: 595px;
+     margin: 0px 0px 0px -126.33px;
+     padding: 0px 126.333px 0px 0px;
+    
+  
+    } 
+
+    .wand > .righttext > h1{
+      font-size: 60px;
+      width: 469px;
+      height: 195px;
+      text-align: left;
+      margin-bottom: 1rem;
+      position: relative;
+      line-height: 65px;
+      margin: 20px 0px 0px;
+      text-align: left;
+      
+    }
+    
+    .wand > div > p {
+      font-family: 'Sofia Sans Semi Condensed', sans-serif;
+      width: 469px;
+      height: 72px;
+      line-height: 24px;
+      text-align: left;
+      font-weight: 300;
+      margin: 17.7778px;
+
+    }
+  
+    .wand >div > span{
+      display: flex;
+      align-self: flex-start;
+    }
+
+      .wand >div > span >a{
+
+        display:flex;
+        background-color: #514a92;
+        border-radius: 30px;
+        color: #ffffff;
+        display:inline-block;
+        font-size:12px;
+        font-weight:700;
+        letter-spacing:1.5px;
+        line-height:12px;
+        padding:14px 40px 18px;
+        text-align:center;
+        text-transform:uppercase;
+        font-family: 'Sofia Sans Semi Condensed', sans-serif;
+        margin-top: 3rem;
+    } 
+
+
+  
+
+
+
+
+
+  
+  /* .sections > section > div> p {
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    width: 197px;
+  }
+  .sections > section > div> div > h1 {
+    font-family: 'PT Serif',serif; 
+    width: 12.3125rem
+  }
+  
+
+  
+  .righttext{
+    position: relative;
+     font-weight: 300;
+     height: 23.125rem;
+     width: 379px;
+     right: 9rem;
+     bottom: 6rem;
+    */

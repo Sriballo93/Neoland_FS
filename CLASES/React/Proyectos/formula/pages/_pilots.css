@@ -1,0 +1,80 @@
+
+.pilotsMain{
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.input{
+    height: 50px;
+    width: 20vw;
+    
+}
+
+.heropilots{
+    width: 100vw;
+    min-height: 20vh;
+    height:40vh;
+    object-fit: cover;
+    object-position:top;
+
+}
+
+.infoContainer{
+    min-height: 40vh;
+    width: 100vw;
+    font-family: var(--f1-font-secondary);
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding: 0 1rem;
+}
+
+.card{
+    width: 225px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    color: black;
+    border-radius: 6px;
+    gap: 1rem;
+    
+    
+}
+
+figcaption{
+    display: flex;
+    gap: 10px;
+    justify-content: space-around;
+    width: 200px;
+    border: 1px solid var(--f1-color-secondary);
+    border-radius: 10px;
+    
+   
+}
+
+figcaption > h3{
+   
+    font-size: 1rem;
+}
+
+.pilotFoto{
+    height: 200px;
+    width: 150px;
+}
+
+.pilotInfoFotos{
+    display: flex;
+    gap: 1rem;
+}
+
+.pilotInfoFotos > img{
+    height: 50px;
+    width: 80px;
+}

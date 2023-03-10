@@ -87,17 +87,7 @@ const getNamevalue2 = async() => {
     const  getName = await fetch(`${baseUrl}?name=${input.value} `);
     const json = await getName.json();
     const createp=document.createElement('p');
-
-    let list=[];
-
-     for (const infocountry of json.country) {
-    list.push(infocountry);
-  
-   }
-
-      const pContent = document.createTextNode(` El nombre de ${json.name} tiene un ${list[0].probability} de probabilidad de ser de ${list[0].country_id} y tiene una probabilidad de ${list[1].probability} de ser de ${list[1].country_id} `);
-      createp.appendChild(pContent);
-      let createDelete= document.createElement('button');
+    let createDelete= document.createElement('button');
       createDelete.innerHTML += ` X `;
       createp.appendChild(createDelete);
       createDelete.classList.add('deletebutton');
@@ -107,6 +97,20 @@ mydeleteButton.addEventListener('click', ()=>{
   
   createp.remove();
 })
+
+
+    let list=[];
+
+     for (const infocountry of json.country) {
+    list.push(infocountry);
+    mydeleteButton.addEventListener('click', ()=>{
+  
+      createp.remove(infocountry);
+    })
+   }
+
+      const pContent = document.createTextNode(` El nombre de ${json.name} tiene un ${list[0].probability *100}% de probabilidad de ser de ${list[0].country_id} y tiene una probabilidad de ${list[1].probability*100}% de ser de ${list[1].country_id}`);
+      createp.appendChild(pContent);   
 
 
 };

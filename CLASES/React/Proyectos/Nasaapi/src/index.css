@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=Press+Start+2P&display=swap');
+
+:root{
+  --ns_color: whitesmoke;
+  --ns_color_secondary: rgba(70, 58, 58, 0.721);
+  --background: rgba(9, 4, 40, 0.888);
+  --font-primary:'Press Start 2P', cursive;
+  --font-secundary:'Geo', sans-serif;
+  --padding-horizontal: 0 1rem;
+
+
+}
+
+*{
+  text-decoration: none;
+  color:whitesmoke;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+  background-image: url("../public/space.jpg");
+  background-size: cover;
+}
+
+h1{
+  font-size: 1rem;
+  font-family: var(--font-primary)
+}
+h2{
+  font-size: 0.9rem;
+  font-family: var(--font-primary)
+}
+h3{
+  font-size: 0.7rem;
+  font-family: var(--font-primary)
+}
+h4{
+  font-size: 0.3rem;
+  font-family: var(--font-primary)
+}
+
+.active{
+  border-bottom: 1px solid rgb(165, 120, 35);
+  padding-bottom: 2px;
+  color: #FDDD04;
+  transition: all 1s ease-in-out;
+}

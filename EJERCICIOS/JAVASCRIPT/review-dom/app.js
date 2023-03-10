@@ -27,7 +27,7 @@ myremove.remove();
 const cars = ['Mazda 6', 'Ford fiesta', 'Audi A4', 'Toyota corola'];
 
 const mydata_function= document.querySelector('div[data-function]')
-
+//([data-function='printhere'])
 
 let createmyUl1 =document.createElement('ul');
 mydata_function.appendChild(createmyUl1);
@@ -62,8 +62,16 @@ for (const photo of photos) {
     createDiv.appendChild(createH4);
     // createImg=document.createElement(`img ${src=photo.imgUrl}''${alt=photo.title}`);
      createDiv.innerHTML += `<img src='${photo.imgUrl}'alt='${photo.title}'/>`;
+     //
     createUl3.appendChild(createDiv);
-
+    createBtn2=document.createElement('button');
+    createBtn2.innerHTML= `X`;
+    createDiv.appendChild(createBtn2);
+    createBtn2.addEventListener("click", () => {   
+        createDiv.remove(photo);
+    },
+    )
+    
     // console.log(createDiv)
 }
 
@@ -74,7 +82,7 @@ createUl3.classList.add('divslist');
 const deletebtn= document.createElement('button');
 deletebtn.classList.add('remove');
 mybody.appendChild(deletebtn);
-const listofDivs = document.querySelector('.divslist')
+const listofDivs = document.querySelector('.divslist');
 
 
 function deleteLastItem() {
@@ -86,11 +94,8 @@ deletebtn.addEventListener("click", () => {
 },
 )
 
-
+// se puede localizar el ultimo utilizando array.lenght -1
 // 1.6 Basandote en el ejercicio anterior. Crea un botón para cada uno de los 
 // elementos de las listas que elimine ese mismo elemento del html.
 
 
-let myLis= document.querySelectorAll('li');
-let createdeleteBtn= document.createElement('button');
-myLis.appendChild(createdeleteBtn)

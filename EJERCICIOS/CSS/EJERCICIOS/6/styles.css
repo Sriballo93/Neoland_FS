@@ -1,0 +1,60 @@
+body {
+    background: #eee;
+    font-family: sans-serif;
+  }
+  
+  .card {
+    width: 400px;
+    background: #fff;
+    margin: 16px auto;
+    border: 2px solid black;
+ 
+  }
+  
+  .title {
+    background: #e3f4ff;
+    font-size: 16px;
+    padding: 8px 8px 8px 16px;
+    border: 1px solid black;
+    margin: 8px;
+  }
+  
+  .content {
+    background: #e3f4ff;
+    border: 1px solid black;
+    padding: 16px 8px 16px 18px;
+    margin: 8px;
+        
+  }
+  
+  
+  .button-container {
+    background: #e3f4ff;
+    border: 1px solid black;
+    margin: 8px;
+    padding: 6px;
+    padding-bottom: 6px;
+    text-align:initial;
+    display:flex;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    
+    
+  }
+  
+  
+  button {
+
+    background: white;
+    border: 1px solid black;
+    padding:  8px 2px 8px 2px;
+    width: 8rem;
+    margin: 8px 24px 8px 24px;
+    background-color: transparent;
+  }
+
+  

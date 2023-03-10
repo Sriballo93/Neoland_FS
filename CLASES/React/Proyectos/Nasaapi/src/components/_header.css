@@ -1,0 +1,38 @@
+ .header{
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(51, 34, 91, 0.473);
+    border-bottom: 0.5rem double whitesmoke ;
+    color:var(--ns_color_secondary);
+}
+
+.header > img{
+    height: 70%;
+  
+    
+}
+
+.header > nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-family: var(--font-primary);
+}
+
+.header > nav > ul{
+    display: flex;
+    gap: 1rem;
+}
+
+.header > h2{
+    font-family: var(--font-primary);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    
+}

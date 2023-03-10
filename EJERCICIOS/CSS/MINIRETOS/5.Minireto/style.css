@@ -1,0 +1,50 @@
+/* Aplicar los siguientes estilos haciendo uso de pseudoclases y pseudoelementos:
+
+- Los enlaces de la navegación deben tener el formato "[nombre de la sección]". Hacer uso de pseudoelementos para insertar los corchetes.
+- Al pasar el cursor sobre los enlaces de navegación superior o hacer click sobre ellos, deben cambiar a un tono más claro de gris el fondo.
+    
+    ![Captura de pantalla 2022-12-27 a las 10.40.30.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/39a02f8a-9a8c-43ca-a5a5-b1037161b254/Captura_de_pantalla_2022-12-27_a_las_10.40.30.png)
+    
+- Al hacer click en los enlaces, deben cambiar a morado.
+- Al darle foco a los enlaces (por ejemplo, con la tecla TAB), deben cambiar a morado y mostrar un borde morado alrededor de ellos.
+- Al pasar por encima, los enlaces tienen que volverse rojos.
+- Los elementos de aventuras en la lista tienen que sustituir el punto por el emoji "🅧" con un padding-left de 5 pixeles. */
+
+ a:link {
+    color: purple;
+  }
+
+ h2::after{
+    content:"]" ;
+}
+h1::after{
+    content:"]" ;
+}
+h2::before{
+    content:"[" ;
+}
+h1::before{
+    content:"[" ;
+}
+/*no se si funciona*/
+
+a:focus{
+    color: purple;
+    border: 2px solid purple;
+}
+
+a:hover{
+    color: red;
+}
+
+li::before {
+    content: "🅧";
+    padding-right: 4px;
+    color: orange;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  

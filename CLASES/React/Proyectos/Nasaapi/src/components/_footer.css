@@ -1,0 +1,10 @@
+.footer{
+    display: flex;
+    height: 15vh;
+    justify-content: space;
+    width: 100%;
+    align-items: center;
+    background-color: rgba(51, 34, 91, 0.473);
+    border-top: 0.5rem double whitesmoke ;
+    color:var(--ns_color_secondary);
+}

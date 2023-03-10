@@ -1,0 +1,13 @@
+.footer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #340101;
+    color: rgb(223, 175, 54);
+    font-family: 'Tangerine', cursive;
+    border-top: 4px solid #815720e3; 
+    font-size: 3rem;
+    filter: drop-shadow(1px 1px 3px rgb(43, 27, 4));
+}

@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+
+:root{
+  --font-primary:font-family: 'Tangerine', cursive;
+
+}
+
+@keyframes faded {
+  0%{
+    opacity: 0;
+  }
+
+  100%{
+    opacity:100%
+  }
+
+}
+
+*{
+  text-decoration: none;
+  color:black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  animation: faded 0.7s ease-in-out;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+body{
+ background-image: url("https://res.cloudinary.com/dg2xjawnt/image/upload/v1676553252/My-Porfolio/template_primary_xjfsjs.jpg");
+  background-size:contain;
+
+  filter:saturate(95%);
+}
+
+main{
+  display: flex;
+ margin-top: 2rem;
+ justify-content: center;
+ align-items: center;
+  min-height: 60vh;
+  text-align: center;
+  
+
+}
+

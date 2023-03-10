@@ -1,0 +1,31 @@
+.cm-main-home {
+  min-height: 70vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cm-hero-title {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.cm-hero-foto {
+  width: 50vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cm-hero-foto > img {
+  height: 586px;
+  border-radius: 12px;
+  width: 460px;
+}
+
+.cm-hero-foto > ul > li > img {
+  height: 70px;
+}

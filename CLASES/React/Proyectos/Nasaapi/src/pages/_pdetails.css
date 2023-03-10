@@ -1,0 +1,35 @@
+.infoPlanet{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.infoPlanet > article{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+    margin-right: 5rem;
+    
+}
+
+.infoPlanet > article > h1{
+    font-size: 3vw;
+}
+.infoPlanet > article > h4{
+    font-size: 2vw;
+    font-family:var(--font-secundary) ;
+    letter-spacing: 2px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+
+.infoPlanet > img{
+    height: 40vh;
+    width: 20rem;
+}
+
+
+  

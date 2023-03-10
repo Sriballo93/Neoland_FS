@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+:root {
+  --primary-dark: whitesmoke;
+  --bg-dark: #111111;
+  --primary-light: #111111;
+  --bg-light: whitesmoke;
+  --highlight: #6cace4;
+  --divider: rgb(164, 164, 164);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Uncial Antiqua', cursive;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+html {
+  scroll-behavior: smooth;
+  letter-spacing: 1.5px;
+
+}
+
+body {
+
+  background-color:#b5983f;
+  background-size: cover;
+  background-image: url(https://static.vecteezy.com/system/resources/previews/008/012/403/non_2x/dark-grey-black-slate-background-or-texture-free-photo.jpg);
+  background-repeat: no-repeat;
+  color: #FFD26F;
+  text-shadow: rgb(109, 109, 61) 2px 0 10px;
+  transition: all 0.5s ease-in-out;
+  height: 100vh;
+  background-size:100%;
+  background-attachment: fixed;
+ 
+}
+
+.light {
+  background-color: #8f5717d7;
+  background-image:url(https://res.cloudinary.com/dg2xjawnt/image/upload/v1675176583/My-Porfolio/clean-gray-paper_1_jpl4rs.png) ;
+  color:#4c2e0f;
+  background-size:100%;
+  background-attachment: fixed;
+ 
+  
+  
+}
+
+header{
+  height:30vh;
+}
+
+main{
+  min-height: 50vh;
+}
+footer{
+  height:20vh;
+}
+
+a,
+
+.home > p{
+  font-size: 1.3rem;
+}

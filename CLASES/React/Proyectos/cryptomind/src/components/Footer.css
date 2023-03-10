@@ -1,0 +1,14 @@
+footer {
+  height: 15vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgb(40, 209, 127);
+  background: linear-gradient(
+    90deg,
+    rgba(40, 209, 127, 1) 0%,
+    rgba(81, 72, 232, 1) 100%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}

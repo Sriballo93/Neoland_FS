@@ -1,0 +1,98 @@
+.latestnews{
+    width: 100%;
+    height: 100vh;
+    margin-top: 4rem;
+  }
+
+  .latestnews > h1 {
+    text-align: left;
+    font-size: 40px;
+    color: antiquewhite;
+    letter-spacing: 1px;
+    padding-left: 4rem;
+  
+  }
+
+  .latestnews > div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    align-content: center;
+    gap:16px;
+    margin: 4rem
+  }
+
+  .latestnews > div > .box1{
+    width: 363px;
+    height: 200px;
+    background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/3BfIGogtToSfGcJ0pUe8H9/9a27f415e0b2233d4d679743d0656270/sunny-hippogriff.jpg?w=381&h=213&fit=fill&f=top);
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+
+  
+  .latestnews > div > .box2{
+    width: 363px;
+    height: 200px;
+    background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/4NBl2A5g8uacFJCN5r0Dri/a9f6fa2949f4c9b0dcf41defcd1bd258/Screenshot_2022-12-12_at_12.02.03.png?w=381&h=213&fit=fill&f=top);
+    object-fit: cover;
+    filter: brightness(70%);
+    color: whitesmoke;
+  }
+
+  .latestnews > div > .box3{
+    width: 363px;
+    height: 200px;
+    background-image: url(https://images.ctfassets.net/usf1vwtuqyxm/4XPNtNSOaowrgKM5GlcvuX/4598f2c13d6dbc0d92d12bcbe0943db8/Billion_hours_image.png?w=381&h=213&fit=fill&f=top);
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .box{
+    display: flex;
+    justify-items: center;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box > article {
+    padding: 1rem;
+    width: 355px ;
+    height: 190px;
+    display: flex;
+    font-size: 20px;
+    justify-items: center;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid gray;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+  }
+
+
+  .allnews{
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    letter-spacing: 1.5px;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+
+  }
+
+  .trap{
+    width: 60vw;
+    height: 30px;
+    border-bottom: 1px solid rgb(241, 241, 241);
+    position: relative;
+    bottom: 1rem;
+  }
+  
+
+
+
+
+

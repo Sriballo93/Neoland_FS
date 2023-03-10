@@ -1,0 +1,129 @@
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 5rem;
+        margin-left: 5rem;
+       
+       }
+
+    .header{
+    margin-top: 20px;
+    font-family: monospace;
+    background: #fa5252;
+    border: 2px solid black;
+    width:100%;
+    margin: 2 rem 2 rem 2 rem 2rem;
+    display: flex;
+    justify-content: space-around;
+    margin: 3rem 3rem 3rem 3rem;
+    align-content:stretch ;
+    
+  }
+  
+  .logo {
+    
+    margin: 0px;
+    padding: 0px;
+    font-size: 25px;
+    font-weight: 70px;
+    background: #81C81D;
+    padding: 16px  3rem;
+    border: 2px solid black;
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+  }
+  
+  ul {
+    /* this removes the dots on the list items*/
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+  }
+  
+  a {
+    font-size: 16px;
+    background: white;
+    /* this removes the line under the links */
+    text-decoration: none;
+   background-color: transparent;
+    width: 64px;
+    height: 20px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+  li{
+    border: 2px solid black;
+    width: 75px;
+    width: 64px;
+    height: 30px;
+    background-color:#784FF2;
+    padding:0.2rem;
+    display: flex;
+    
+  }
+
+  .right-links{
+    display: flex;
+  padding: 0;
+  }
+
+  .left-links{
+    display: flex;
+    padding: 0rem;
+;
+  }
+  ul{
+    display: flex;
+
+  }
+
+  .div > .left-links> ul{
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .logo{
+    padding: 0;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem;
+  }
+
+  body{
+    width: 100%;
+    margin:0;
+  }
+
+.header{
+  margin: 2rem;
+  padding: 0;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  height: 60px;
+  width: 100%;
+  margin: 4rem;
+}
+
+ul{
+  gap: 1rem;
+}

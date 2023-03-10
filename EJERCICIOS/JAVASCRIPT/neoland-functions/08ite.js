@@ -16,6 +16,6 @@ const counterWords = [
     'code'
   ];
 
-const resultado = counterWords.reduce((prev, cur)=>((prev[cur] = prev[cur] + 1 ||1), prev), {})
+const results = counterWords.reduce((counter, word)=>((counter[word] = counter[word] + 1 ||1), counter),{})
 
-console.log(resultado)
+console.log(results)

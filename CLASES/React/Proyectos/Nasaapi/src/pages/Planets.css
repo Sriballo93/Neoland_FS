@@ -1,0 +1,58 @@
+.planetsContainer{
+    display: flex;
+    flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ gap: 1rem;
+}
+
+.planetsContainer > h1{
+    font-size: 2rem;
+    margin-top: 3rem;
+}
+
+.planets{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+    justify-content: center;
+    margin: 4rem;
+
+}
+
+.planets > figure{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 290px;
+    gap: 3rem;
+}
+
+.planets > figure > h3{
+    letter-spacing: 0.2rem;
+    font-size: 1.5rem;
+}
+.planets > figure > a > img{
+    width: 250px;
+    height: 250px;
+    transform: rotate(110deg);
+    /* filter: drop-shadow(10px 10px 10px 20px black); */
+    filter: drop-shadow(0.6rem 0.6rem 1rem rgba(4, 4, 37, 0.8));
+
+    transition: 10s ease-in-out;
+      
+      
+     
+}
+
+.planets > figure > a > img:hover{
+    transform: rotate(30deg);
+    transform: scale(1.6);
+    transition: 10s ease-in-out;
+    filter: drop-shadow(5px 5px 10px black);
+    overflow: visible;
+    
+}
+

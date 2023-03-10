@@ -1,0 +1,10 @@
+.f1-grid-layout{
+    display: grid;
+    grid-template-rows: 
+    17vh
+    1fr
+    13vh;
+    
+
+    
+}

@@ -1,0 +1,7 @@
+.cm-layout-grid {
+  display: grid;
+  grid-template-rows:
+    20vh
+    1fr
+    10vh;
+}

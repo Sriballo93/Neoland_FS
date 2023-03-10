@@ -1,0 +1,49 @@
+.form1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+   
+}
+
+.form1 >input{
+width: 150px;
+text-align: center;
+}
+.form1 >button{
+    width: 150px;
+    text-align: center;
+    }
+
+    .form-containers{
+        display: flex;
+        gap: 5rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .artistCard{
+        display: flex;
+        background-color: rgba(87, 85, 85, 0.205);
+        border: 2px solid rgba(128, 128, 128, 0.452);
+        border-radius: 12px;
+        padding: 1rem;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        height: 200px;
+        width: 400px;
+    }
+
+    .artistCard img{
+       height: 150px;
+       width: 150px;
+    }
+
+    .artistContainer{
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }

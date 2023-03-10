@@ -1,0 +1,32 @@
+.notfoundfoto{
+    width: 100vw;
+    filter: blur(1px);
+    height: 75vh;
+    object-fit: cover;
+}
+
+.notfound{
+    height: 200px;
+    width: 350px;
+    font-family: var(--f1-font-primary);
+    background-color: rgba(59, 38, 10, 0.347);
+    color: var(--f1-color-primary);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    z-index: 1;
+    position:relative;
+    border: 2px solid var(--f1-color-highligth);
+    filter: drop-shadow(15px 15px 36px black) black;
+    bottom: 20rem;
+    
+}
+
+.notfound-main{
+    height: 40vh;
+   
+}
+
+

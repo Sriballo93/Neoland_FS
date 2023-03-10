@@ -1,0 +1,10 @@
+.layout{
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows:
+    25vh
+    1fr
+    10vh;
+    /* background-image: url("https://res.cloudinary.com/dg2xjawnt/image/upload/v1675176583/My-Porfolio/clean-gray-paper_1_jpl4rs.png");
+    background-color: rgba(185, 156, 11, 0.014); */
+}

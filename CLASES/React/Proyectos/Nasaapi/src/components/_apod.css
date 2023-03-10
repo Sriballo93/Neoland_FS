@@ -1,0 +1,31 @@
+.apodContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2rem; 
+    gap: 10px;
+}
+
+#photo_date{
+    background-color: rgba(245, 245, 245, 0.226);
+    color: white;
+    width: 6rem;
+    height: 2rem;
+    border: 1px solid whitesmoke;
+    text-align: center;
+}
+
+.inputContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-family: var(--font-secundary);
+}
+
+.inputContainer > button{
+    background-color: transparent;
+    border: 2px solid wheat;
+    padding: var(--padding-horizontal);
+    font-family: var(--font-secundary);
+}

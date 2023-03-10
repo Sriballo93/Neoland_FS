@@ -1,0 +1,27 @@
+/* FONTS */
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@600&display=swap');
+
+/* UTILS */
+@import url(./style/utils/_palletes.css);
+@import url(./style/utils/_reset.css);
+
+/* GLOBAL */
+@import url(./style/globals/_globals.css);
+
+/* BLOCKS */
+@import url(./style/blocks/_header.css);
+@import url(./style/blocks/_main.css);
+@import url(./style/blocks/_sections.css);
+@import url(./style/blocks/_latest.css);
+@import url(./style/blocks/_footer.css);
+
+
+
+
+
+
+
+
+

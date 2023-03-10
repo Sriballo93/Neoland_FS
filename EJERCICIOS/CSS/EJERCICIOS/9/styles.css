@@ -1,0 +1,29 @@
+#transition-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  background-color: #2563eb;
+  color: white;
+  font-size: 18px;
+  padding: 16px 24px;
+  text-align: center;
+  /* height:100px;
+  width: 200px; */
+  transition:0.3s ease-in-out ;
+}
+
+button:hover{
+    background-color: blueviolet;
+    /* height: 200px;
+    width: 400px; */
+    size-adjust: 1.2rem;
+    /* font-size: 32px; */
+    transform: scale(1.2);
+    
+}
